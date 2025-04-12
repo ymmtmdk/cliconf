@@ -15,7 +15,10 @@ class Cliconf < Formula
 
   def caveats
     <<~EOS
-      Add the following line to your shell configuration file:
+      To install:
+        brew install ymmtmdk/cliconf
+
+      Then add one of the following lines to your shell configuration file:
 
       Bash (~/.bashrc):
         source "#{opt_share}/cliconf/scripts/cliconf_integrate.bash"
